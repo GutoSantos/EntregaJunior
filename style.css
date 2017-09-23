@@ -1,0 +1,62 @@
+.cabecalho, .rodape{
+  background-color: hsl(210, 88%, 22%);
+
+  font-size: 1em;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.ultimo_paragrafo{
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.posicao{
+  display: inline-block;
+}
+
+.habilidades{
+  width: 33%;
+  float: left;
+}
+
+.experiencia{
+  width: 66%;
+  float: right;
+}
+
+.relative_progress_bar{
+  width: 50%;
+}
+
+html{
+  font-size: 1.5em;
+  font-family: Cambria, Georgia, serif;
+}
+
+header, footer, .conteudo{
+  display: inline-block;
+}
+
+progress{
+  float: right;
+  width: 100%;
+}
+
+/*Esse CSS só funciona para o Firefox*/
+progress::-moz-progress-bar {
+  background-color: hsl(210, 88%, 22%);
+}
+
+header, footer{
+  width: 100%
+}
+
+header p, footer p{
+  margin: 0;
+  padding: 0;
+}
+
+h3, h4{
+  color: hsl(210, 88%, 22%);
+}
